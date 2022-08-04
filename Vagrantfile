@@ -155,7 +155,7 @@ Vagrant.configure("2") do |config|
     config.vm.define "vg-prom-04" do |kalicluster|
       # https://wiki.ubuntu.com/Releases
       # https://app.vagrantup.com/ubuntu/boxes/jammy64
-      kalicluster.vm.box = "ubuntu/jammy64" #21.04
+      kalicluster.vm.box = "ubuntu/jammy64" #22.04
       # https://app.vagrantup.com/ubuntu/boxes/focal64
       # kalicluster.vm.box = "ubuntu/focal64" #20.04 LTS (Focal Fossa) builds      
       # https://app.vagrantup.com/ubuntu/boxes/xenial64
@@ -186,7 +186,7 @@ Vagrant.configure("2") do |config|
     config.vm.define "vg-prom-05" do |kalicluster|
       # https://wiki.ubuntu.com/Releases
       # https://app.vagrantup.com/ubuntu/boxes/jammy64
-      kalicluster.vm.box = "ubuntu/jammy64" #21.04
+      kalicluster.vm.box = "ubuntu/jammy64" #22.04
       # https://app.vagrantup.com/ubuntu/boxes/focal64
       # kalicluster.vm.box = "ubuntu/focal64" #Official Ubuntu 20.04 LTS (Focal Fossa) builds      
       # https://app.vagrantup.com/ubuntu/boxes/xenial64
