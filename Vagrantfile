@@ -153,14 +153,13 @@ Vagrant.configure("2") do |config|
 
 
     config.vm.define "vg-prom-04" do |kalicluster|
-      # https://app.vagrantup.com/ubuntu/boxes/hirsute64
-      # kalicluster.vm.box = "ubuntu/hirsute64" #21.04
-      # https://app.vagrantup.com/ubuntu/boxes/impish64
-      # kalicluster.vm.box = "ubuntu/impish64" #21.10
+      # https://wiki.ubuntu.com/Releases
+      # https://app.vagrantup.com/ubuntu/boxes/jammy64
+      kalicluster.vm.box = "ubuntu/jammy64" #21.04
       # https://app.vagrantup.com/ubuntu/boxes/focal64
-      # kalicluster.vm.box = "ubuntu/focal64" #Official Ubuntu 20.04 LTS (Focal Fossa) builds      
+      # kalicluster.vm.box = "ubuntu/focal64" #20.04 LTS (Focal Fossa) builds      
       # https://app.vagrantup.com/ubuntu/boxes/xenial64
-      kalicluster.vm.box = "ubuntu/bionic64" #18.04      
+      # kalicluster.vm.box = "ubuntu/bionic64" #18.04      
       # https://app.vagrantup.com/ubuntu/boxes/xenial64
       # kalicluster.vm.box = "ubuntu/xenial64" #16.04
       kalicluster.vm.hostname = "vg-prom-04"
@@ -185,14 +184,13 @@ Vagrant.configure("2") do |config|
     end
 
     config.vm.define "vg-prom-05" do |kalicluster|
-      # https://app.vagrantup.com/ubuntu/boxes/hirsute64
-      # kalicluster.vm.box = "ubuntu/hirsute64" #21.04
-      # https://app.vagrantup.com/ubuntu/boxes/impish64
-      # kalicluster.vm.box = "ubuntu/impish64" #21.10
+      # https://wiki.ubuntu.com/Releases
+      # https://app.vagrantup.com/ubuntu/boxes/jammy64
+      kalicluster.vm.box = "ubuntu/jammy64" #21.04
       # https://app.vagrantup.com/ubuntu/boxes/focal64
       # kalicluster.vm.box = "ubuntu/focal64" #Official Ubuntu 20.04 LTS (Focal Fossa) builds      
       # https://app.vagrantup.com/ubuntu/boxes/xenial64
-      kalicluster.vm.box = "ubuntu/bionic64" #18.04      
+      # kalicluster.vm.box = "ubuntu/bionic64" #18.04      
       # https://app.vagrantup.com/ubuntu/boxes/xenial64
       # kalicluster.vm.box = "ubuntu/xenial64" #16.04
       kalicluster.vm.hostname = "vg-prom-05"
